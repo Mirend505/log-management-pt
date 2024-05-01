@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   tools:showIn="navigation_view"
+    >
+
+    <item
+        android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/baseline_home_work_24"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:title="favorite"
+        android:icon="@drawable/baseline_favorite_24"/>
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@drawable/baseline_person_search_24"/>
+    <item
+        android:id="@+id/help"
+        android:title="aide"
+        android:icon="@drawable/baseline_help_24"
+        />
+
+    <item android:title="profile">
+        <menu>
+            <item
+                android:id="@+id/sync"
+                android:title="synchrinisation"
+                android:icon="@drawable/baseline_cloud_sync_24"/>
+            <item
+                android:id="@+id/deconnecte"
+                android:title="se deconnecter"
+                android:icon="@drawable/baseline_disabled_by_default_24"/>
+
+        </menu>
+    </item>
+
+    <item android:title="communicate">
+        <menu>
+            <item
+                android:id="@+id/partager"
+                android:title="partager"
+                android:icon="@drawable/baseline_mobile_screen_share_24"/>
+            <item
+                android:id="@+id/utilisateur"
+                android:title="gestion des utilisateurs"
+                android:icon="@drawable/baseline_contact_mail_24"/>
+
+        </menu>
+    </item>
+
+
+</menu>
